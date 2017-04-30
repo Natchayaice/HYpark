@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<head>
+	<title>Page</title>
+</head>
+<style>
+div {Font-Family:"PSL Kanda ExtraSP";Font-Size:20pt;}
+a {Font-Family:"PSL Kanda ExtraSP";Font-Size:20pt;}
+p{Font-Family:"PSL Kanda ExtraSP";Font-Size:20pt;}
+h3 {Font-Family:"PSL Kanda ExtraSP";Font-Size:20pt;}
+</style>
+<body>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card-2">
+    <a href="#home" class="w3-bar-item w3-button"><b>ชื่อเรื่อง</b> </a>
+	<a href="#project" class="w3-bar-item w3-button w3-right w3-hide-small">เกี่ยวกับเรา</a>
+	<a href="#project" class="w3-bar-item w3-button w3-right w3-hide-small">แผนที่</a>
+	<a href="#project" class="w3-bar-item w3-button w3-right">หน้าแรก</a>
+    </div>
+ </div>
+</div>
+<!-- Section -->
+<div class="w3-content w3-card-2" style="max-width:90%">
+	<div class="w3-row-padding w3-card-2 w3-padding" style="margin-top:100px">
+		<div class="w3-left w3-col l4 s12 w3-border-right">
+			<div class="w3-container w3-content w3-padding w3-card-2 w3-margin-bottom w3-gray w3-center">
+				<h3>สวนน้ำ (Hatyai Wonders Land)</h3>
+			</div>
+			<div class="w3-container w3-content w3-padding w3-card-2 w3-gray w3-center">
+				<p>เปิดบริการให้ชุ่มฉ่ำทุกวัน เวลา 09.00-19.00 น.</p>
+				<p>เป็นสถานที่สร้างความสนุกสนาน ผ่อนคลายความร้อน	เป็นสวนน้ำขนาดใหญ่พอสมควรให้ได้ว่ายน้ำ เหมาะสำหรับคุณหนูๆ</p>
+			</div>
+		</div>
+		<div class="w3-right w3-col l8 s12 w3-content w3-display-container">
+			<img class="mySlides" src="สว2.jpg" style="width:90%">
+			<img class="mySlides" src="สว1.jpg" style="width:90%">
+			<img class="mySlides" src="สว3.jpg" style="width:90%">
+			<img class="mySlides" src="สว4.jpg" style="width:90%">
+
+			<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+			<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+		</div>
+	</div>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+
+
+
+</body>
+</html>
