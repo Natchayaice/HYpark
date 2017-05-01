@@ -25,7 +25,7 @@ h3 {Font-Family:"PSL Kanda ExtraSP";Font-Size:20pt;}
 
 <!-- Header -->
 <header class="w3-display-container w3-center w3-content w3-wide" style="max-width:1500px;" id="home">
-   <img class="w3-image" src="g11.JPG" alt="Architecture" width="1500" height="1500">
+   <img class="w3-image" src="g11.jpg" alt="Architecture" width="1500" height="1500">
 </header>
 
 <!-- Page content -->
