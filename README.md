@@ -44,19 +44,19 @@ h3 {Font-Family:"PSL Kanda ExtraSP";Font-Size:20pt;}
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
+      <div class="w3-display-container w3-hover-shadow">
         <div class="w3-display-topleft w3-black w3-padding">สระน้ำ</div>
         <img src="g2.JPG" alt="House" style="width:100%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
+      <div class="w3-display-container w3-hover-shadow">
         <div class="w3-display-topleft w3-black w3-padding">สวนน้ำ</div>
         <img src="g3.JPG" alt="House" style="width:100%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
+      <div class="w3-display-container w3-hover-shadow"">
         <div class="w3-display-topleft w3-black w3-padding">กระเช้าลอยฟ้า</div>
         <img src="g4.JPG" alt="House" style="width:100%">
       </div>
